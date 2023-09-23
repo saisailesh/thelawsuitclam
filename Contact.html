@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(32, 83, 184);
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform
+  : translate(-50%, -50%);
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #335ac7;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.container1 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+</style>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body align="center">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#" style="color:rgb(248, 242, 242);">Submit Your Case </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index1.html">Home</a></li>
+        <li><a href="terms.html">Terms and Conditions</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="privacy.html">Privacy Policy</a><br><br></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<center>
+    <div class="w3-card-4" style="width:80%;">
+      <header class="w3-container w3-LightGray">
+        <h1>Contact Us</h1><br>
+      </header>
+    <form action="/action_page.php">
+        <div class="w3-container">
+          <div class="container1" align="left">
+            <form action="/action_page.php">
+            <p class="text-center"><em>WE ARE AVAILABLE TO US</em></p>
+            <div class="row test">
+                <div class="col-md-4">
+                    <p>Drop a note.</p>
+                    <p><span class="glyphicon glyphicon-map-marker"></span>GUDIVADA, AP</p>
+                    <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
+                    <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                    <input type="submit" value="Submit"><br>
+                </div>
+            </div>
+        </div>
+    </form>
+    </div>
+    <footer class="w3-container w3-LightGray">
+        <h5></h5>
+    </footer><br>
+  </center><br>
+
+
+  <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  </footer>
+
+</body>
+</html>

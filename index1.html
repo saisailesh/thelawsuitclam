@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(32, 83, 184);
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform
+  : translate(-50%, -50%);
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #335ac7;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.container1 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+</style>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body align="center">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#" style="color:rgb(248, 242, 242);">Submit Your Case </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index1.html">Home</a></li>
+        <li><a href="terms.html">Terms and Conditions</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="privacy.html">Privacy Policy</a><br><br></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+    <p><img src="lawyer.jpeg" alt="Snow" style="width:170px;height:170px;margin-left:15px;"><h3 style="color:rgb(194, 203, 25);">FREE<br>CASE REVIEW<br>No Cost - No Obligation</h3></p>
+</div>
+<br><br>
+
+<div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+            <img src="water.jpeg" alt="Girl in a jacket" width="300" height="200">
+          <h5 class="card-title"><b>CAMP LEJEUNE LAWSUIT</b></h5>
+          <p class="card-text">Camp Lejeune is a Marine Corps base in Jacksonville, North Carolina</p>
+          <p class="card-text">From 1953 to 1987 Marines and their families drank and bathed in toxin-contaminated water that was 240 to 3,400 times more toxic than permitted by safety standards.</p>
+          <p>Since August 2, 2022, the Camp Lejeune Justice Act allows those exposed to contaminated water at Camp Lejeune to sue and recover damages if they were exposed for at least 30 days from August 1, 1953, to December 31, 1987</p>
+          <p>If you or a loved one have suffered injuries such as cancer, and even death, please contact us immediately for the ongoing Camp Lejuene lawsuit</p><br><br>
+          <a href="#" class="btn btn-primary">GET FREE CASE REVIEW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+            <img src="baby_formula.jpg" alt="Girl in a jacket" width="300" height="200">
+          <h5 class="card-title">SIMILAC & ENFAMIL LAWSUIT (NEC)</h5>
+          <p class="card-text">TALCUM POWDER LAWSUIT</p>
+          <p class="card-text">Baby powder is a talc-based product. Multiple studies done over the course of the last 65 years have found that the mineral talc can be found in the same mines as the cancer-causing asbestos tremolite.<br>
+            <p>Johnson & Johnson (J & J) is the largest distributor of talc-based baby powder.<br>Company & FDA lab tests have found some J&J talc mineral supplies contained trace amounts of tremolite, the cancer-causing asbestos, in deposits from both the U.S. and Italy.</p>
+            <p>If you or a loved one have suffered injuries such as cancer, mesothelioma, and even death</p><br><br>
+          <a href="#" class="btn btn-primary">GET FREE CASE REVIEW</a><br><br>
+        </div>
+      </div>
+    </div>
+  </div><br><br>
+<center>
+  <div class="w3-card-4" style="width:50%;">
+    <header class="w3-container w3-LightGray">
+      <h1>Get a Free Case Review</h1><br>
+    </header>
+
+    <div class="w3-container">
+        <div class="container1" align="left">
+            <form method="post" action="" name="case-form" id="case-form">
+              <label for="fname">First Name</label>
+              <input type="text" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" name="lastname" placeholder="Your last name..">
+
+              <label for="lname">Email</label>
+              <input type="text" name="email" placeholder="Your  Mail ID..">
+
+              <label for="lawsuit">select Applicable lawsuit</label>
+
+              <select name="lawsuit" id="lawsuit">
+                <option value="select Applicable lawsuit">select Applicable lawsuit</option>
+                <option value="Camp Lejeune Lawsuit">Camp Lejeune Lawsuit</option>
+                <option value="Talcum Powder Lawsuit">Talcum Powder Lawsuit</option>
+                <option value="Round-up Lawsuit">Round-up Lawsuit</option>
+                <option value="Paraquat Lawsuit">Paraquat Lawsuit</option>
+                <option value="Mesothelioma Lawsuit">Mesothelioma Lawsuit</option>
+                <option value="Tylenol Autism Lawsuit">Tylenol Autism Lawsuit</option>
+                <option value="NEC Claim Lawsuit">NEC Claim Lawsuit</option>
+                <option value="AFF Claim Lawsuit">AFF Claim Lawsuit</option>
+                <option value="Hair Relaxer Claim Lawsuit">Hair Relaxer Claim Lawsuit</option>
+              </select>
+
+              <label for="lname">Address</label>
+              <input type="text" id="Address" name="Address" placeholder="Your Address">
+
+              <label for="lname">Street Name</label>
+              <input type="text" name="sname" placeholder="Your Street Name">
+
+              <label for="lname">City</label>
+              <input type="text" name="City" placeholder="Your City">
+
+              <label for="lname">State</label>
+              <input type="text" name="State" placeholder="Your State">
+
+              <label for="lname">Zip Code</label>
+              <input type="text" name="Zip Code" placeholder="Your Zip Code">
+          
+              <label for="subject">Explain your case Briefly</label>
+              <textarea name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+              <input type="checkbox" id="one" name="one" value=" ">
+              <label for="one"> I would be needing help to file a settlement.</label><br>
+
+              <input type="checkbox" id="two" name="two" value=" ">
+              <label for="two">I agree to the Terms of Service and Privacy Policy and authorize legaladvisors.online and up to 4 Law Firms and 3rd party Partners to contact me by telephone calls, emails, artificial voice, and pre-recorded/text messages, using an automated telephone technology, at the number you entered above, with offers about their products or services, even if my number is a mobile number or is currently listed on any state, federal or corporate Do Not Call list. You may revoke your consent at any time. Message and data rates may apply. Your consent here is not based on a condition of purchase. California Notice</label><br>
+
+              <input type="checkbox" id="three" name="three" value=" ">
+              <label for="three">Please click this box so we know you're a person and not not a computer</label><br><br>
+          
+              <input type="submit" value="Submit" id="submit"><br>
+            </form>
+          </div>
+    </div>
+    <footer class="w3-container w3-LightGray">
+        <h5></h5>
+      </footer>
+  </div>
+</div>
+</center><br><br>
+  <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  </footer>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyQcm9Nk9dv3QcUp2FP32N9dbTuXJP_S4y26Q7bPpXqgcgmI2EcG_j1dh5miEE7cM48/exec'
+    const form = document.forms['case-form']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => alert("Thank you! your form is submitted successfully." ))
+        .then(() => {  window.location.reload(); })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+<br>
+</body>
+</html>
